@@ -1,4 +1,4 @@
-const targetDate = new Date('YYYY-MM-DDTHH:MM:SS'); // Set your target
+const targetDate = new Date('2024-05-06:00:00'); // Set your target
 
 function updateCountdown() {
   const currentTime = new Date();
@@ -16,7 +16,7 @@ function updateCountdown() {
 
   if (difference < 0) {
       clearInterval(interval);
-      document.getElementById("timer").innerText = "The event has started!";
+      document.getElementById("timer").innerText = "Happy Fuck'In Badday To Me!";
   }
 }
 
